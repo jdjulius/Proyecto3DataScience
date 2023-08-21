@@ -43,10 +43,9 @@ import statsmodels.api as sm
 
 ### Video de youtube
 
-[Explicacion del proyecto 2](https://youtu.be/DZvvAlseiAU)
+[Explicacion del proyecto 3](https://youtu.be/DZvvAlseiAU)
 
 ### Documentacion
 
 * [Video tutorial](https://www.youtube.com/watch?v=JLRQaQRbr9w)
 * [Clases impartidas]()
-*
