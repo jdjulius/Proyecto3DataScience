@@ -6,38 +6,47 @@
 
 ```python
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
+import statistics as stats
+import numpy as np
+import scipy
+import matplotlib.pyplot as plt
+import libraryFunc.libFunc as lib
+import warnings
+warnings.simplefilter('ignore')
+from statsmodels.graphics.gofplots import qqplot
+from scipy.stats import shapiro
+from scipy.stats import kstest
+from scipy.stats import zscore
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+from sklearn.metrics import mean_squared_error
+import statsmodels.api as sm
 ```
 
 
 ### Estructura del proyecto
 1. data
-   * Carpeta que contiene la data en formato csv.
-2. exercise
-   * Ejercicios propuestos en el proyecto
-3. notebooks
+   * Carpeta que contiene la data en formato csv. En la carpeta cleaned se encuentra la data ya limpia con las nuevas variables categoricas
+2. notebooks
    * Scripts de exploracion, limpieza o analisis.
-4. results
+   * En el notebook de Exploration se encuentra el EDA creado
+   * En el notebook de Analysis se encuentra en analisis inferencial
+3. results
    * Script de resultados finales o graficos.
-5. scripts
+4. scripts
    * Libreria propia de funciones para implementar en el proyecto
-6. test
+5. test
    * Pruebas unitarias
 
 
 ### Video de youtube
 
-[Explicacion del proyecto 2](https://youtu.be/IJIM7H4YwkM)
+[Explicacion del proyecto 2](https://youtu.be/DZvvAlseiAU)
 
 ### Documentacion
 
-* [Apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html)
-* [Where](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.where.html?highlight=where#pandas.DataFrame.where)
-* [histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html?highlight=histplot#seaborn.histplot)
-* [boxplot](https://seaborn.pydata.org/generated/seaborn.barplot.html?highlight=barplot#seaborn.barplot)
-* [barplot](https://seaborn.pydata.org/generated/seaborn.boxplot.html?highlight=boxplot#seaborn.boxplot)
-* [heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html?highlight=heatmap#seaborn.heatmap)
-
-
+* [Video tutorial](https://www.youtube.com/watch?v=JLRQaQRbr9w)
+* [Clases impartidas]()
+*
